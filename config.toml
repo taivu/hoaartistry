@@ -1,5 +1,5 @@
 # Site settings
-# baseURL = "https://example.org/"
+baseURL = "https://hoaartisty.netlify.com/"
 languageCode = "en-US"
 title = "Hoa Artistry"
 theme = "hugo-split-theme"
