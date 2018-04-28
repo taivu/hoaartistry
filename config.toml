@@ -53,11 +53,11 @@ copyright = "&copy;2018 Hoa Artistry"
 
       [[params.links.list1.link]]
         text = "803.665.4141"
-        url = "tel:18436654141"
+        url = "#"
 
       [[params.links.list1.link]]
         text = "Email"
-        url = "#"
+        url = "mailto:hoasypolt@yahoo.com"
 
   # Links List #2
   [[params.links]]
