@@ -1,0 +1,95 @@
+# Site settings
+# baseURL = "https://example.org/"
+languageCode = "en-US"
+title = "Hoa Artistry"
+theme = "hugo-split-theme"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Copyright
+copyright = "&copy;2018 Hoa Artistry"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  name = "Hoa Artisty"
+  description = "Artist"
+  shareImage = "images/social.jpg"
+  twitterHandle = "onepagelove"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Section - Content
+  [params.content]
+    name = "Hoa Artisty"
+    tagline = "Passionate. Creative. Purposeful."
+    bio = "My art journey began in 1987 when I came to America at the age of 9. I quickly made Columbia, South Carolina, my home. Beginning at an early age, art was central and innately important to me. I took an art class every year until I recieved my Bachelor of Fine Arts in Studio Painting degree from the University of South Carolina in 2003. Art has helped me through many challenges and has inspired me profoundly. Producing art is an integral part of my daily life as a Nail Artist and as a Professional Artist."
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/hoa-artisty.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+      [[params.links.list1.link]]
+        text = "803.665.4141"
+        url = "tel:18436654141"
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "#"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "Facebook"
+        url = "https://www.facebook.com/Hoa-Artistry-356574424809478/"
+
+      [[params.links.list2.link]]
+        text = "Instagram"
+        url = "https://www.instagram.com/hoaartistry/"
+
+  # Links List #3
+  # [[params.links]]
+  #   [params.links.list3]
+  #     heading = "Network"
+
+  #     [[params.links.list3.link]]
+  #       text = "Link One"
+  #       url = "#"
+
+  #     [[params.links.list3.link]]
+  #       text = "Link Two"
+  #       url = "#"
+
+  #     [[params.links.list3.link]]
+  #       text = "Link Three"
+  #       url = "#"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
